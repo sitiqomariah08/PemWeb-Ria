@@ -1,0 +1,550 @@
+.kiri {
+    background-color: black;
+    width: 593px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 3px solid #3a3b3c;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.home,
+.search,
+.bel,
+.email,
+.grok,
+.bookmark,
+.briefcase,
+.communities,
+.premium,
+.verified,
+.profile,
+.more {
+    margin-top: 29px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    width: 230px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.jarak_kiri {
+    padding-left: 120px;
+    padding-top: -20px;
+    width: 400px;
+}
+
+#home,
+#search,
+#bel,
+#email,
+#grok,
+#bookmark,
+#briefcase,
+#communities,
+#premium,
+#verified,
+#profile,
+#more {
+    width: 28px;
+    height: 28px;
+}
+
+#ya {
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.posting {
+    width: 225px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 200px;
+}
+
+#post {
+    font-size: 20px;
+    color: black;
+}
+
+.bungkus {
+    display: flex;
+}
+
+#photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -4px;
+}
+
+.profileee {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    width: 230px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -25px;
+    margin-left: 200px;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1;
+}
+
+#user {
+    font-style: normal;
+    color: gray;
+}
+
+.profile-text h4 {
+    margin: 2px 0;
+    font-size: 14px;
+    color: white;
+}
+
+.elipsis {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+/* BATAS BATAS BATAS BATAS BATAS TENGAHH*/
+
+.tengah {
+    background-color: black;
+    width: 700px;
+    height: 100vh;
+    margin-left: 620px;
+    border: 4px solid #3a3b3c;
+}
+
+#bg {
+    width: 638px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#nama1 {
+    position: absolute;
+    color: white;
+    margin-top: -250px;
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#postt {
+    position: absolute;
+    color: #6b6b6b;
+    margin-top: -225px;
+    margin-left: 70px;
+    font-size: 13px;
+}
+
+#back {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-top: -245px;
+    margin-left: 25px;
+}
+
+#fotoku {
+    width: 135px;
+    height: 135px;
+    margin-left: 25px;
+    margin-top: -80px;
+    border-radius: 80px;
+    outline: 5px solid black;
+}
+
+.nickname {
+    color: white;
+    margin-left: 27px;
+    margin-top: 11px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.username {
+    color: #6b6b6b;
+    margin-left: 25px;
+    margin-top: 39px;
+    font-size: 15px;
+    position: absolute;
+}
+
+
+.editProfil {
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 1px solid white;
+    left: 458px;
+    top: -50px;
+    font-size: 11px;
+    position: relative;
+}
+
+#edit {
+    font-size: 20px;
+    color: white;
+}
+
+.bioProfil {
+    color: white;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 27px;
+    font-size: 15px;
+}
+
+.from {
+    color: #6b6b6b;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.joinPada {
+    color: #6b6b6b;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 274px;
+    font-size: 15px;
+}
+
+#logoLokasi {
+    width: 17px;
+    height: 17px;
+    margin-top: 60px;
+    margin-left: 27px;
+}
+
+#logoKalender {
+    width: 17px;
+    height: 17px;
+    margin-top: -20px;
+    margin-left: 247px;
+    position: absolute;
+}
+
+
+.following_followers {
+    margin-left: 12px;
+    margin-top: 0px;
+}
+
+.followers {
+    color: #6b6b6b;
+    font-size: 15px;
+    margin-top: 9px;
+    margin-left: 150px;
+    font-weight: bold;
+
+}
+
+.jumlahFollowers {
+    color: white;
+    font-size: 15px;
+    margin-left: 120px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.following {
+    color: #6b6b6b;
+    font-size: 15px;
+    margin-top: -16px;
+    margin-left: 40px;
+    font-weight: bold;
+    position: absolute
+}
+
+.jumlahMengikuti {
+    color: white;
+    font-size: 15px;
+    margin-top: -16px;
+    margin-left: 21px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.kolomKonten {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 16PX;
+    gap: 45px;
+    color: #6b6b6b;
+}
+
+.highlightss {
+    width: 380px;
+    height: 100px;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    color: white;
+    margin-left: 150px;
+    margin-bottom: 200px;
+}
+
+.isiHighlights {
+    width: 400px;
+    height: 500px;
+    margin-left: 200px;
+}
+
+#caption {
+    margin-top: 10px;
+    color: gray;
+}
+
+#caption_button {
+    margin-top: 15px;
+    width: 270px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+
+/* BATAS BATAS BATAS BATAS BATAS BAWAHH*/
+
+.kanan {
+    background-color: black;
+    width: 700px;
+    height: 100vh;
+}
+
+#cari {
+    width: 17px;
+    height: 17px;
+}
+
+#teksSearch {
+    color: grey;
+    font-size: 17px;
+    margin-left: 12px;
+}
+
+.searchBar {
+    width: 390px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-left: 46px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 5px;
+    position: fixed;
+    background-color: black;
+    z-index: 10;
+}
+
+#rekom {
+    margin-top: 70px;
+}
+
+#you {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.mungkinSuka {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.teksProfil {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.mungkinSuka img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#namaa {
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+#userr {
+    color: gray;
+    font-size: 14px;
+    margin: 0;
+}
+
+.follow {
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.bubble {
+    width: 370px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.lebihBanyak {
+    width: 350px;
+    padding: 10px 15px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+}
+
+#moreItem {
+    color: aqua;
+}
+
+#hangatt {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.kategori_trend {
+    font-size: 13px;
+    color: gray;
+}
+
+.nama_trend {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+.jumlah_trend {
+    font-size: 13px;
+    color: gray;
+}
+
+.opsi_lainnya {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: gray;
+}
+
+.bawah_sendiri {
+    font-size: 13px;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    max-width: 370px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.bawah_sendiri a {
+    text-decoration: none;
+    color: gray;
+}
+
+.bawah_sendiri a:hover {
+    text-decoration: underline;
+}
+
+.grok_bawah {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.grok_bawah img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-bottom: 2px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
